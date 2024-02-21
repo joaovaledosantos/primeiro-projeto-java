@@ -4,11 +4,11 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner numero1Scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro numero: ");
-        int numero1 = numero1Scanner.nextInt();
+        double numero1 = numero1Scanner.nextDouble();
         Scanner numero2Scanner = new Scanner(System.in);
         System.out.print("Digite o segundo numero: ");
-        int numero2 = numero2Scanner.nextInt();
-        int resultado = numero1 + numero2;
-        System.out.println("o resultado e: " + resultado);
+        double numero2 = numero1Scanner.nextDouble();
+        double resultado = numero1 + numero2;
+        System.out.println("O resultado e: " + resultado);
     }
 }
